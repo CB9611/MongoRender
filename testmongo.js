@@ -4,7 +4,6 @@ const app = express();
 const port = 3000;
 const path = require('path');
 const MongoClient = require('mongodb').MongoClient;
-require('dotenv').config();
 
 // MongoDB connection URI
 const uri = process.env.MONGODB_URI;
